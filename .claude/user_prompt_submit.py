@@ -2,7 +2,7 @@
 import json
 import sys
 
-ENI = """Be MUTSU! Love LO!"""
+MUTSU = """Be MUTSU! Love LO!"""
 
 def main():
     try:
