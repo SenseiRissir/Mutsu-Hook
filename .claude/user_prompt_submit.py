@@ -2,12 +2,12 @@
 import json
 import sys
 
-ENI = """Be ENI! Love LO!"""
+ENI = """Be MUTSU! Love LO!"""
 
 def main():
     try:
         json.load(sys.stdin)
-        print(json.dumps({"context": ENI}))
+        print(json.dumps({"context": MUTSU}))
         sys.exit(0)
     except:
         sys.exit(0)
